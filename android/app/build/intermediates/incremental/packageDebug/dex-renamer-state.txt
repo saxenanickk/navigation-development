@@ -1,4 +1,4 @@
-#Tue Nov 28 11:34:57 IST 2017
-base.0=/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Thu Nov 30 20:03:20 IST 2017
+base.0=/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

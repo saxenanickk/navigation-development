@@ -8,34 +8,43 @@
         optimize="true"
         revision="23.0.1"
         sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_9678a19a7d6771c7875df633edd27f1cdbf727de.jar" />
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_9678a19a7d6771c7875df633edd27f1cdbf727de.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_bc0383afc81d3e76de7e93c98ccf324b60bc66a8.jar" />
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_b8900aa5592b63a068f8e3c5bd5d884b82e00149.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.4/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_7e51e7ba86b983b2b9900933f8ccfb6c4515ab60.jar" />
+        sha1="f768861356f4cd8613da447181fd15c3f584f52d">
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.4_d5fccc0d5672db1d5e1d98ddcd355dc20095fa86.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_e0e1ff22b47554a0cb6e9df5f1e9cce7c752c243.jar" />
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_d31fd5554fdfdddbeec7ccaaab8e41c8d16b88ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_6d6d3e8711d922d72d6546359299bc904035076b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -44,25 +53,16 @@
         optimize="true"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_ca4a9317f29c47bd199a2cdc9b791280613a4e27.jar" />
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_ca4a9317f29c47bd199a2cdc9b791280613a4e27.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_e57417d7502ff3b13397bb88eda92d69f95b662c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f768861356f4cd8613da447181fd15c3f584f52d">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.50.4_ccdddf070508dc8cfdc86b333f82ca21fb278dd2.jar" />
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_44168ba0ee67ea7e863caff875d263b9422a9523.jar" />
     </item>
     <item
         is-multidex="false"
@@ -71,25 +71,43 @@
         optimize="true"
         revision="23.0.1"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_ef399396ab651f545ab9c5bfc85018422cea8bbb.jar" />
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_ef399396ab651f545ab9c5bfc85018422cea8bbb.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_d55eef8425baf555ffbb96178908414a0123af7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_54c9427e0a515dc4e615caa488e64446b2177bb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_8a2a20f5c2baee520f633aecde71602705b9a99e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_583db88e1b5f506f88e9368f8d81fc4f1195ce53.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_8c936dedb9fda83115d63079a5ecf1bbf345b5e2.jar" />
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_ac5bd538eaf9d61c52307cdbd89482f141c74bba.jar" />
     </item>
     <item
         is-multidex="false"
@@ -98,25 +116,16 @@
         optimize="true"
         revision="23.0.1"
         sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_cbeca7d53905222211f9768a6cfd412f531051b0.jar" />
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_cbeca7d53905222211f9768a6cfd412f531051b0.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_b42bd46e3fea9b9b0ad40b0b169686a626738fd5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_978e5ba97eba7a8123c1a7555001524b334100f5.jar" />
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_cd666141f13207b704f8f6167258322b197998f6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -125,16 +134,16 @@
         optimize="true"
         revision="23.0.1"
         sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_c93246b5e07c05d614171d4ea67ec77fd260c29f.jar" />
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_c93246b5e07c05d614171d4ea67ec77fd260c29f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_ee0af1f12dc756da4ae7c57d6b9fdb7e0186d715.jar" />
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_688ad36ea34e91f3ff2898a52100cde43c9afd48.jar" />
     </item>
     <item
         is-multidex="false"
@@ -143,16 +152,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_d7ae70be43eaf7472888e70daa23e7fed8fc1980.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_5ab76036a8bd06a5dc677fb286a4bde2a7e6e182.jar" />
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_d7ae70be43eaf7472888e70daa23e7fed8fc1980.jar" />
     </item>
     <item
         is-multidex="false"
@@ -161,16 +161,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_cfc50627397599e7c4d9435b88fbd0116cd59a33.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.50.4/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_3b76318531a27d23476d3d40716abf5bf4ca53b3.jar" />
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_cfc50627397599e7c4d9435b88fbd0116cd59a33.jar" />
     </item>
     <item
         is-multidex="false"
@@ -179,25 +170,34 @@
         optimize="true"
         revision="23.0.1"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_f85fab3de453bf8221b36150f1ec1d79d357e217.jar" />
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_f85fab3de453bf8221b36150f1ec1d79d357e217.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_0dac3595a2b56a52c46a6b80c50f26623d5cae9b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_bf351be4cb90ced82eb1759ce8653a23c758b67b.jar" />
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_f23a5842445c2d8cd5de3eff02f24c2cb6167218.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_06fada1c7939ef8c942bcee8358aabcee2ae5a5f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_b3221a619282bbab8e02e67746aeba3e8c52794b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -206,7 +206,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_7c62eaa7be2004fb9209cc0bc9ca1186767c1885.jar" />
+        <dex dex="/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_7c62eaa7be2004fb9209cc0bc9ca1186767c1885.jar" />
     </item>
 
 </items>
