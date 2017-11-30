@@ -1,0 +1,3 @@
+rootProject.name = 'localeapp'
+
+include ':app'
