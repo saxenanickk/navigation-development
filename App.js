@@ -1,10 +1,9 @@
-
-import Platify from "./src/RegisterScreen";
 import React from "react";
-import { createStore, applyMiddleware, combineReducers } from "redux";
 import { Provider } from "react-redux";
+import { createStore, applyMiddleware } from "redux";
 import createSagaMiddleware from "redux-saga";
 import logger from "redux-logger";
+import Platify from "./src/RegisterScreen";
 import reducer from "./src/Reducer";
 import saga from "./src/Saga";
 
@@ -16,22 +15,21 @@ runSaga(saga);
 const asyncReducers = {};
 
 export const getNewReducer = (data, newModuleInfo) => {
-	asyncReducers[newModuleInfo.name] = newModuleInfo.reducer;
-	
-	store.replaceReducer(reducer(asyncReducers));
-}
+  asyncReducers[newModuleInfo.name] = newModuleInfo.reducer;
+  store.replaceReducer(reducer(asyncReducers));
+};
 
 export default class App extends React.Component {
-	constructor() {
-		super();
-		console.disableYellowBox = true;
-	}
+  constructor() {
+    super();
+    console.disableYellowBox = true;
+  }
 
-	render() {
-		return(
-			<Provider store={store}>
-				<Platify/>
-			</Provider>
-		);
-	}
+  render() {
+    return (
+      <Provider store={store}>
+        <Platify />
+      </Provider>
+    );
+  }
 }
