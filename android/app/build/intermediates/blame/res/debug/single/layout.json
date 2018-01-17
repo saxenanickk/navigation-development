@@ -124,12 +124,12 @@
         "source": "/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
         "merged": "/Users/maverick/Documents/ReactNative/platify/android/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
         "source": "/Users/maverick/Documents/ReactNative/platify/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
