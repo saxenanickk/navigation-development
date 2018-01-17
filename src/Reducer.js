@@ -8,25 +8,25 @@ const initialState = {
 
 const main = (state = initialState, action) => {
   switch (action.type) {
-	case HELLO:
-		return {
-			...state,
-			home: action.payload
-		};
-  default:
-    return state;
+    case HELLO:
+      return {
+        ...state,
+        home: action.payload
+      };
+    default:
+      return state;
   }
 };
 
 const second = (state = initialState, action) => {
   switch (action.type) {
-	case HELLO:
-		return {
-			...state,
-			home: action.payload
-		};
-  default:
-    return state;
+    case HELLO:
+      return {
+        ...state,
+        home: action.payload
+      };
+    default:
+      return state;
   }
 };
 

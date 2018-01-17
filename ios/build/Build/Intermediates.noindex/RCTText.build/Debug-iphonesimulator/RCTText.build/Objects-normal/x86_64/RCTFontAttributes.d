@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/maverick/Documents/ReactNative/platify/node_modules/react-native/Libraries/Text/RCTFontAttributes.m \
+  /Users/maverick/Documents/ReactNative/platify/node_modules/react-native/Libraries/Text/RCTFontAttributes.h \
+  /Users/maverick/Documents/ReactNative/platify/node_modules/react-native/Libraries/Text/RCTFontAttributesDelegate.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAccessibilityManager.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFont.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/maverick/Documents/ReactNative/platify/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h
