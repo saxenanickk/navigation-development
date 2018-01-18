@@ -1,6 +1,6 @@
 import React from "react";
 import {
-	ScrollView, 
+	ScrollView,
 	StyleSheet,
 	Text,
 	View,
@@ -25,12 +25,12 @@ class CustomDrawerContentComponent extends React.Component {
 				{/* <Text>{this.props.val!= null ? this.props.val : "NA"}</Text> */}
 				<SafeAreaView style={styles.container} forceInset={{ top: 'always', horizontal: 'never' }}>
 					{this.props.items.map((data, key) => {
-						if(data.key == "BookRide") {
-							return(null);
+						if (data.key == "BookRide") {
+							return (null);
 						} else {
-							return(
+							return (
 								<TouchableOpacity key={key} onPress={() => this.props.navigation.navigate(data.routeName)}>
-									<View style={{ flex: 1, height: height/12, justifyContent: "center" }}>
+									<View style={{ flex: 1, height: height / 12, justifyContent: "center" }}>
 										<Text>{data.key}</Text>
 									</View>
 								</TouchableOpacity>
@@ -47,8 +47,8 @@ class CustomDrawerContentComponent extends React.Component {
 }
 
 function mapStateToProps(state) {
-  console.log(state);
-  return {
+	console.log(state);
+	return {
 		val: state
 	};
 }
@@ -56,7 +56,7 @@ function mapStateToProps(state) {
 export default connect(mapStateToProps, null, null, { withRef: true })(CustomDrawerContentComponent);
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1
-  }
+	container: {
+		flex: 1
+	}
 });

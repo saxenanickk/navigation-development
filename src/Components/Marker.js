@@ -5,7 +5,8 @@ import {
   StyleSheet,
   TouchableOpacity,
   Image,
-  Dimensions
+  Dimensions,
+  ToastAndroid
 } from "react-native";
 import MapView from "react-native-maps";
 import { fontFamily } from "../../Assets/styles";
@@ -15,20 +16,42 @@ const { width, height } = Dimensions.get("window");
 const Marker = props => {
   return (
     <MapView.Marker
-      onPress={() => alert("Hey")}
+      onPress={() => ToastAndroid.show("Feature is not enabled in Demo App.", ToastAndroid.SHORT)}
       coordinate={this.props.latlng}
       onDragEnd={this.props.onDrag}>
-      <View style={{ alignItems: "center", justifyContent: "center" }}>
-        <Text style={styles.destinationText} numberOfLines={1} ellipsizeMode={"tail"}>{this.props.locationText}</Text>
-        <Image source={require("../../../assets/DestinationPointBlackSquareUber.png")} style={{ width: 15, height: 15 }}>
-          <Text style={{ width: 0, height: 0 }}>{Math.random()}</Text>
-        </Image>
-      </View>
+      {this.props.markerType == "destination" ?
+        <View style={styles.container}>
+          <View style={[styles.destinationTextMarker]}>
+            <Text style={styles.destinationText} numberOfLines={1} ellipsizeMode={"tail"}>{this.props.locationText}</Text>
+          </View>
+          <Image source={require("../../../assets/DestinationPointBlackSquareUber.png")} style={{ width: 15, height: 15 }}>
+            <Text style={{ width: 0, height: 0 }}>{Math.random()}</Text>
+          </Image>
+        </View> :
+        <View style={styles.container}>
+          <View style={[styles.originTextMarker]}>
+            <View style={[styles.etaContainer]}>
+              <Text style={{ fontFamily: fontFamily, color: "#ffffff" }}>
+                {isNaN(this.props.eta) ?
+                  this.props.eta
+                  : this.props.eta + " min"}
+              </Text>
+            </View>
+            <Text style={[styles.originText]} numberOfLines={1} ellipsizeMode={"tail"}>{this.props.locationText}</Text>
+          </View>
+          <Image source={require("../../../assets/OriginPointBlackCircleUber.png")} style={{ width: 15, height: 15 }}>
+            <Text style={{ width: 0, height: 0 }}>{Math.random()}</Text>
+          </Image>
+        </View>}
     </MapView.Marker>
   );
 }
 
 const styles = StyleSheet.create({
+  container: {
+    alignItems: "center",
+    justifyContent: "center"
+  },
   originTextMarker: {
     flexDirection: "row",
     alignItems: "center",

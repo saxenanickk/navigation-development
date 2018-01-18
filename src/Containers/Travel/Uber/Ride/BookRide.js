@@ -19,11 +19,11 @@ export default class BookRide extends React.Component {
 					this.props.navigation.dispatch(NavigationActions.reset({
 						index: 0,
 						actions: [
-							NavigationActions.navigate({ routeName: "Platify"})
+							NavigationActions.navigate({ routeName: "Platify" })
 						]
 					}));
 				}}>
-					<View style={{ width: width, height: height/10, backgroundColor: "#000000" }}/>
+					<View style={{ width: width, height: height / 10, backgroundColor: "#000000" }} />
 				</TouchableOpacity>
 			</View>
 		);

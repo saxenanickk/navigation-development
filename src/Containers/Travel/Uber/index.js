@@ -11,18 +11,18 @@ class Uber extends React.Component {
   constructor(props) {
     super(props);
     this.props.dispatch(Actions.hello("nikhil"));
-    getNewReducer(props.state, {name: "uber", reducer: reducer});
+    getNewReducer(props.state, { name: "uber", reducer: reducer });
     runSaga(saga);
     console.disableYellowBox = true;
   }
-  
+
   componentWillUnmount() {
     console.log("Uber Exit");
   }
-  
+
   render() {
-    return(
-      <App navigation={this.props.navigation}/>
+    return (
+      <App navigation={this.props.navigation} />
     );
   }
 }
