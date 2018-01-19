@@ -29,32 +29,32 @@ const platify = TabNavigator({
     screen: Cart,
   },
 }, {
-  initialRouteName: "Home",
-  tabBarPosition: 'bottom',
-  animationEnabled: true,
-  tabBarOptions: {
-    showIcon: true,
-    indicatorStyle: {
-      backgroundColor: "#6896ec",
-      height: 5,
-      borderRadius: 2
+    initialRouteName: "Home",
+    tabBarPosition: 'bottom',
+    animationEnabled: true,
+    tabBarOptions: {
+      showIcon: true,
+      indicatorStyle: {
+        backgroundColor: "#6896ec",
+        height: 5,
+        borderRadius: 2
+      },
+      activeBackgroundColor: "transparent",
+      labelStyle: {
+        fontSize: 8,
+      },
+      activeTintColor: '#000000',
+      inactiveTintColor: "#afafaf",
+      style: {
+        borderWidth: 0,
+        backgroundColor: "#fbfbfb",
+        height: 55
+      },
+      tabStyle: {
+        borderWidth: 0,
+        borderColor: "#000000"
+      }
     },
-    activeBackgroundColor: "transparent",
-    labelStyle: {
-      fontSize: 8,
-    },
-    activeTintColor: '#000000',
-    inactiveTintColor: "#afafaf",
-    style: {
-      borderWidth: 0,
-      backgroundColor: "#fbfbfb",
-      height: 55
-    },
-    tabStyle: {
-      borderWidth: 0,
-      borderColor: "#000000"
-    }
-  },
-});
+  });
 
 export default platify;

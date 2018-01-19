@@ -6,12 +6,12 @@ import createSagaMiddleware from "redux-saga";
 import logger from "redux-logger";
 import Platify from "./src/RegisterScreen";
 import reducer from "./src/Reducer";
-import saga from "./src/Saga";
+import goappSaga from "./src/Saga";
 
 const sagaMiddleware = createSagaMiddleware();
 const store = createStore(reducer(), applyMiddleware(sagaMiddleware, logger));
 export const runSaga = sagaMiddleware.run;
-runSaga(saga);
+runSaga(goappSaga);
 
 const asyncReducers = {};
 

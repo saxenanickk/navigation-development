@@ -1,14 +1,6 @@
 [
     {
-        "merged": "/Users/maverick/Documents/ReactNative/localeapp/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/Users/maverick/Documents/ReactNative/localeapp/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/maverick/Documents/ReactNative/platify/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/Users/maverick/Documents/ReactNative/platify/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/maverick/Documents/ReactNative/navigation-development/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
-        "source": "/Users/maverick/Documents/ReactNative/navigation-development/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

@@ -14,13 +14,15 @@ import {
 } from 'react-native';
 import I18n from "../../Assets/strings/i18n";
 import Interactable from "react-native-interactable";
+import { connect } from "react-redux";
+import { netInfo } from "../../Saga";
 
 import AppIcon from "../../Components/Applcon";
 import { fontFamily } from "../../Assets/styles";
 
 const { width, height } = Dimensions.get("window");
 
-export default class Home extends Component {
+class Home extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -28,27 +30,72 @@ export default class Home extends Component {
       addressTitle: null,
       addressValue: null
     }
+    this.backButton = false;
+    this.netInfoFlag = true;
+    this.handleBackButtonClick = this.handleBackButtonClick.bind(this);
+    this.handleFirstConnectivityChange = this.handleFirstConnectivityChange.bind(this);
+    this.openDialog = this.openDialog.bind(this);
+    NetInfo.getConnectionInfo().then((connectionInfo) => {
+      if (connectionInfo.type != "none") {
+        this.props.dispatch(netInfo(true));
+      } else {
+        this.props.dispatch(netInfo(false));
+      }
+      console.log("Initial, Type: ", connectionInfo.type);
+      console.log("Full Info: ", connectionInfo);
+    });
+    NetInfo.addEventListener(
+      "connectionChange",
+      this.handleFirstConnectivityChange
+    );
+  }
+
+  componentWillMount() {
+    BackHandler.addEventListener("hardwareBackPress", this.handleBackButtonClick);
+  }
+
+  componentWillUnmount() {
+    BackHandler.removeEventListener("hardwareBackPress", this.handleBackButtonClick);
+  }
+
+  handleFirstConnectivityChange(connectionInfo) {
+    let dispatch = this.props.dispatch;
+    setTimeout(() => {
+      if (connectionInfo.type == "none") {
+        dispatch(netInfo(false));
+        alert("NO Internet");
+      } else if (connectionInfo.type != "none") {
+        dispatch(netInfo(true));
+      }
+    }, 200);
+    console.log("Network Change, Type: ", connectionInfo.type);
+    console.log("Full Info: ", connectionInfo);
+  }
+
+  /**
+   * Back Button Handler
+   */
+  handleBackButtonClick() {
+    if (!this.backButton) {
+      this.backButton = true;
+      setTimeout(() => {
+        this.backButton = false;
+      }, 2000);
+      this.iview.snapTo({ index: 0 });
+      ToastAndroid.show(I18n.t("press_again_to_go_back"), ToastAndroid.SHORT);
+      return true;
+    } else {
+      this.backButton = false;
+      return false;
+    }
   }
 
   openDialog(data) {
-    // if (this.props.netInfo) {
-    //   this.props.navigator.showSnackbar({
-    //     text: I18n.t("coming_soon"),
-    //     actionText: I18n.t("done_text"),
-    //     actionId: "fabClicked",
-    //     actionColor: "67e6b1",
-    //     textColor: "#6896ec",
-    //     backgroundColor: "#000000",
-    //     duration: "long"
-    //   });
-    // } else {
-    //   this.props.navigator.showSnackbar({
-    //     text: "Internet connectivity unavailable.",
-    //     textColor: "#ffffff",
-    //     backgroundColor: "#C30021",
-    //     duration: "indefinite"
-    //   });
-    // }
+    if (this.props.netInfo) {
+      ToastAndroid.show(I18n.t("coming_soon"), ToastAndroid.SHORT);
+    } else {
+      ToastAndroid.show(I18n.t("internet_not_found"), ToastAndroid.SHORT);
+    }
   }
 
   render() {
@@ -198,6 +245,15 @@ export default class Home extends Component {
     );
   }
 }
+
+function mapStateToProps(state) {
+  console.log(state);
+  return {
+    netInfo: state.goapp.netConnectivity
+  };
+}
+
+export default connect(mapStateToProps, null, null, { withRef: true })(Home);
 
 const styles = StyleSheet.create({
   container: {

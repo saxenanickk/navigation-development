@@ -1,43 +1,25 @@
 import { combineReducers } from "redux";
-import { HELLO } from "./Saga";
+import { NET_INFO } from "./Saga";
 
 const initialState = {
-  home: null,
-  work: null
-};
+  netConnectivity: null
+}
 
-const main = (state = initialState, action) => {
+const netInfo = (state = initialState, action) => {
   switch (action.type) {
-    case HELLO:
+    case NET_INFO:
       return {
         ...state,
-        home: action.payload
+        netConnectivity: action.payload
       };
     default:
       return state;
   }
 };
-
-const second = (state = initialState, action) => {
-  switch (action.type) {
-    case HELLO:
-      return {
-        ...state,
-        home: action.payload
-      };
-    default:
-      return state;
-  }
-};
-
-const platify = combineReducers({
-  main: main,
-  second: second
-});
 
 export default function reducer(asyncReducers) {
   return combineReducers({
-    platify: platify,
+    goapp: netInfo,
     ...asyncReducers
   });
 }

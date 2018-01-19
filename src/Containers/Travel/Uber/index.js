@@ -10,7 +10,6 @@ import { getNewReducer } from "../../../../App";
 class Uber extends React.Component {
   constructor(props) {
     super(props);
-    this.props.dispatch(Actions.hello("nikhil"));
     getNewReducer(props.state, { name: "uber", reducer: reducer });
     runSaga(saga);
     console.disableYellowBox = true;
