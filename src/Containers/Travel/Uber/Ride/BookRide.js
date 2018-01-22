@@ -5,6 +5,7 @@ import Settings from "../Account/Settings";
 import CustomDrawer from "../CustomDrawer";
 
 const { width, height } = Dimensions.get("window");
+
 export default class BookRide extends React.Component {
 	constructor(props) {
 		super(props);

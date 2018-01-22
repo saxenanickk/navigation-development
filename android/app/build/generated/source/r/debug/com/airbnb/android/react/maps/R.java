@@ -9,7 +9,7 @@ package com.airbnb.android.react.maps;
 public final class R {
 	public static final class attr {
 		public static final int ambientEnabled = 0x7f01008a;
-		public static final int buttonSize = 0x7f0100a5;
+		public static final int buttonSize = 0x7f0100a8;
 		public static final int cameraBearing = 0x7f01007b;
 		public static final int cameraMaxZoomPreference = 0x7f01008c;
 		public static final int cameraMinZoomPreference = 0x7f01008b;
@@ -18,7 +18,7 @@ public final class R {
 		public static final int cameraTilt = 0x7f01007e;
 		public static final int cameraZoom = 0x7f01007f;
 		public static final int circleCrop = 0x7f010079;
-		public static final int colorScheme = 0x7f0100a6;
+		public static final int colorScheme = 0x7f0100a9;
 		public static final int imageAspectRatio = 0x7f010078;
 		public static final int imageAspectRatioAdjust = 0x7f010077;
 		public static final int latLngBoundsNorthEastLatitude = 0x7f01008f;
@@ -27,7 +27,7 @@ public final class R {
 		public static final int latLngBoundsSouthWestLongitude = 0x7f01008e;
 		public static final int liteMode = 0x7f010080;
 		public static final int mapType = 0x7f01007a;
-		public static final int scopeUris = 0x7f0100a7;
+		public static final int scopeUris = 0x7f0100aa;
 		public static final int uiCompass = 0x7f010081;
 		public static final int uiMapToolbar = 0x7f010089;
 		public static final int uiRotateGestures = 0x7f010082;
@@ -39,17 +39,17 @@ public final class R {
 		public static final int zOrderOnTop = 0x7f010088;
 	}
 	public static final class color {
-		public static final int common_google_signin_btn_text_dark = 0x7f0c0050;
+		public static final int common_google_signin_btn_text_dark = 0x7f0c0051;
 		public static final int common_google_signin_btn_text_dark_default = 0x7f0c0016;
 		public static final int common_google_signin_btn_text_dark_disabled = 0x7f0c0017;
 		public static final int common_google_signin_btn_text_dark_focused = 0x7f0c0018;
 		public static final int common_google_signin_btn_text_dark_pressed = 0x7f0c0019;
-		public static final int common_google_signin_btn_text_light = 0x7f0c0051;
+		public static final int common_google_signin_btn_text_light = 0x7f0c0052;
 		public static final int common_google_signin_btn_text_light_default = 0x7f0c001a;
 		public static final int common_google_signin_btn_text_light_disabled = 0x7f0c001b;
 		public static final int common_google_signin_btn_text_light_focused = 0x7f0c001c;
 		public static final int common_google_signin_btn_text_light_pressed = 0x7f0c001d;
-		public static final int common_google_signin_btn_tint = 0x7f0c0052;
+		public static final int common_google_signin_btn_tint = 0x7f0c0053;
 	}
 	public static final class drawable {
 		public static final int common_full_open_on_phone = 0x7f02003e;
@@ -90,7 +90,7 @@ public final class R {
 		public static final int wide = 0x7f0d0039;
 	}
 	public static final class integer {
-		public static final int google_play_services_version = 0x7f0b0004;
+		public static final int google_play_services_version = 0x7f0b0006;
 	}
 	public static final class string {
 		public static final int common_google_play_services_enable_button = 0x7f070011;
@@ -140,7 +140,7 @@ public final class R {
 		public static final int MapAttrs_uiZoomGestures = 12;
 		public static final int MapAttrs_useViewLifecycle = 13;
 		public static final int MapAttrs_zOrderOnTop = 14;
-		public static final int[] SignInButton = { 0x7f0100a5, 0x7f0100a6, 0x7f0100a7 };
+		public static final int[] SignInButton = { 0x7f0100a8, 0x7f0100a9, 0x7f0100aa };
 		public static final int SignInButton_buttonSize = 0;
 		public static final int SignInButton_colorScheme = 1;
 		public static final int SignInButton_scopeUris = 2;

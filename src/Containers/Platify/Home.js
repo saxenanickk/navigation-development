@@ -16,6 +16,7 @@ import I18n from "../../Assets/strings/i18n";
 import Interactable from "react-native-interactable";
 import { connect } from "react-redux";
 import { netInfo } from "../../Saga";
+// import SnackBar from "react-native-snackbar-dialog";
 
 import AppIcon from "../../Components/Applcon";
 import { fontFamily } from "../../Assets/styles";
@@ -23,12 +24,14 @@ import { fontFamily } from "../../Assets/styles";
 const { width, height } = Dimensions.get("window");
 
 class Home extends Component {
+
   constructor(props) {
     super(props);
     this.state = {
       selectedTab: 3,
       addressTitle: null,
-      addressValue: null
+      addressValue: null,
+      snackBarVisibility: false
     }
     this.backButton = false;
     this.netInfoFlag = true;
@@ -63,7 +66,6 @@ class Home extends Component {
     setTimeout(() => {
       if (connectionInfo.type == "none") {
         dispatch(netInfo(false));
-        alert("NO Internet");
       } else if (connectionInfo.type != "none") {
         dispatch(netInfo(true));
       }
@@ -92,7 +94,9 @@ class Home extends Component {
 
   openDialog(data) {
     if (this.props.netInfo) {
+      // this.setState({ snackBarVisibility: true, snackBarText: I18n.t("coming_soon") });
       ToastAndroid.show(I18n.t("coming_soon"), ToastAndroid.SHORT);
+      // SnackBar.show(I18n.t("coming_soon"), { isStatic: true })
     } else {
       ToastAndroid.show(I18n.t("internet_not_found"), ToastAndroid.SHORT);
     }
@@ -142,30 +146,18 @@ class Home extends Component {
               <Text style={{ fontSize: 24, fontFamily: fontFamily, fontWeight: "bold", color: "#fbfbfb" }}>{I18n.t("live_apps")}</Text>
               <View style={{ width: width / 2.2, height: height / 5.5, alignItems: "center", flexDirection: "row", justifyContent: "space-around", backgroundColor: "transparent" }}>
                 <AppIcon title={"Uber"} icon={require("../../Assets/img/uber.png")} onPress={() => {
-                  this.props.navigation.navigate("Uber");
-                  // if (this.props.netInfo) {
-                  //   loadUber();
-                  // } else {
-                  //   this.props.navigator.showSnackbar({
-                  //     text: "Internet connectivity unavailable.",
-                  //     textColor: "#ffffff",
-                  //     backgroundColor: "#C30021",
-                  //     duration: "indefinite"
-                  //   });
-                  // }
+                  if (this.props.netInfo) {
+                    this.props.navigation.navigate("Uber");
+                  } else {
+                    ToastAndroid.show(I18n.t("internet_not_found"), ToastAndroid.SHORT);
+                  }
                 }} />
                 <AppIcon title={"Ola"} icon={require("../../Assets/img/Ola.png")} onPress={() => {
-                  this.props.navigation.navigate("Ola")
-                  // if (this.props.netInfo) {
-                  //   loadOla();
-                  // } else {
-                  //   this.props.navigator.showSnackbar({
-                  //     text: "Internet connectivity unavailable.",
-                  //     textColor: "#ffffff",
-                  //     backgroundColor: "#C30021",
-                  //     duration: "indefinite"
-                  //   });
-                  // }
+                  if (this.props.netInfo) {
+                    this.props.navigation.navigate("Ola");
+                  } else {
+                    ToastAndroid.show(I18n.t("internet_not_found"), ToastAndroid.SHORT);
+                  }
                 }} />
               </View>
             </View>
@@ -241,6 +233,15 @@ class Home extends Component {
             </View>
           </View>
         </Interactable.View>
+        {/* <SnackBar
+          visible={this.state.snackBarVisibility}
+          textMessage={this.state.snackBarText}
+          backgroundColor={"#000000"}
+          messageColor={"#ffffff"}
+          accentColor={"#0000ff"}
+          actionText={"Done"}
+          actionHandler={() => this.setState({ snackBarVisibility: false })}
+        /> */}
       </View>
     );
   }
