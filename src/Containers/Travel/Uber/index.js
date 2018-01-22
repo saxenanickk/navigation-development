@@ -27,7 +27,6 @@ class Uber extends React.Component {
 }
 
 function mapStateToProps(state) {
-  // console.log(state);
   return {
     account: state.account,
     state: state
