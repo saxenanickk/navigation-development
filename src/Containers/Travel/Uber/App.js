@@ -12,5 +12,4 @@ export default class App extends React.Component {
       <RegisterScreen nav={this.props.navigation} />
     );
   }
-
 }
