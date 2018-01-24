@@ -1,24 +1,20 @@
 import React from "react";
 import { DrawerNavigator, NavigationActions } from 'react-navigation';
+import Account from "./Account";
 import BookRide from "./BookRide";
-import Settings from "../Account/Settings";
-import CustomDrawer from "../CustomDrawer";
+import Payment from "./Payment";
+import Settings from "./Settings";
+import CustomDrawer from "./CustomDrawer";
 
 const UberDrawer = DrawerNavigator({
   "BookRide": {
     screen: BookRide
   },
+  "Account": {
+    screen: Account,
+  },
   "Payment": {
-    screen: Settings
-  },
-  "Your Trips": {
-    screen: Settings
-  },
-  "Help": {
-    screen: Settings
-  },
-  "Free Rides": {
-    screen: Settings
+    screen: Payment
   },
   "Settings": {
     screen: Settings
@@ -35,7 +31,7 @@ export default class BookRideDrawer extends React.Component {
 
   render() {
     return (
-      <UberDrawer />
+      <UberDrawer navigation={this.props.navigation} />
     );
   }
 }

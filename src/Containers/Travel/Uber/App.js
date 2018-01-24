@@ -9,7 +9,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <RegisterScreen nav={this.props.navigation} />
+      <RegisterScreen nav={this.props.nav} />
     );
   }
 }

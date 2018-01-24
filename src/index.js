@@ -1,20 +1,15 @@
-import { StackNavigator } from "react-navigation";
-import Platify from "./Containers/Platify";
-import Uber from "./Containers/Travel/Uber";
-import Ola from "./Containers/Travel/Ola";
+import React from 'react';
+import RegisterScreen from "./RegisterScreen";
 
-const App = StackNavigator({
-  Platify: {
-    screen: Platify,
-  },
-  Uber: {
-    screen: Uber,
-  },
-  Ola: {
-    screen: Ola,
-  },
-}, {
-    headerMode: "none",
-  });
+export default class App extends React.Component {
 
-export default App;
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <RegisterScreen />
+    );
+  }
+}

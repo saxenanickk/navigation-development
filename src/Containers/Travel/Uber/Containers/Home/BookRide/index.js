@@ -20,7 +20,7 @@ export default class BookRide extends React.Component {
           this.props.navigation.dispatch(NavigationActions.reset({
             index: 0,
             actions: [
-              NavigationActions.navigate({ routeName: "Platify" })
+              NavigationActions.navigate({ routeName: "Goapp" })
             ]
           }));
         }}>

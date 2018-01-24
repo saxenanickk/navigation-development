@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { DrawerItems, SafeAreaView } from "react-navigation";
 import { connect } from "react-redux";
-import * as Actions from "./Saga";
+import * as Actions from "../../Saga";
 
 const { width, height } = Dimensions.get("window");
 class CustomDrawerContentComponent extends React.Component {

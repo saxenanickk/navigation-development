@@ -20,8 +20,9 @@ class Uber extends React.Component {
   }
 
   render() {
+    console.log("Uber Props: ", this.props);
     return (
-      <App navigation={this.props.navigation} />
+      <App nav={this.props.navigation} />
     );
   }
 }

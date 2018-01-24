@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 import createSagaMiddleware from "redux-saga";
 import logger from "redux-logger";
-import Platify from "./src/";
+import Goapp from "./src/";
 import reducer from "./src/Reducer";
 import goappSaga from "./src/Saga";
 
@@ -35,7 +35,7 @@ export default class App extends React.Component {
   render() {
     return (
       <Provider store={store}>
-        <Platify />
+        <Goapp />
       </Provider>
     );
   }
